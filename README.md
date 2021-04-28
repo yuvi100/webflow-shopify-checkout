@@ -19,3 +19,6 @@ Edit the **script.js** file: *Change the following if needed (I used a demo Webf
 > - Webflow cart item quantity input selector class: '**input.w-commerce-commercecartquantity.text-field**'
 > - Webflow custom attribute class that you set up for your Webflow products which will contain a value equal to the Shopify Variant ID for that product: '**.hidden-variant-id**'
 > - Shopify Domain: https://**ENTER-YOUR-SHOPIFY-DOMAIN-HERE**/cart/${arrayShopify}?channel=buy_button
+<br><br>
+Include the edited **script.js** code on Webflow in the *head* tag:<br>
+> -  In Project settings > Custom code, enter your code in the Head code section, and Save changes.
