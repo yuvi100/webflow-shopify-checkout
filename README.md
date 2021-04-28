@@ -9,7 +9,7 @@ A script that allows you to use Webflow's native cart functionality and replaces
 
 ## Setup
 Assign the Shopify Variant ID to the Webflow product inside Webflow's navigator as 'Hidden Variant ID' and give it the class 'hidden-variant-id'. See screenshot below:<br>
-![Webflow Screenshot](https://github.com/yuvi100/webflow-shopify-checkout/blob/master/webflow-screenshot.jpeg?raw=true)
+![Webflow Screenshot](https://github.com/yuvi100/webflow-shopify-checkout/blob/main/webflow-screenshot.jpeg?raw=true)
 <br><br>
 
 Edit the **script.js** file:<br>
