@@ -8,15 +8,15 @@ A script that allows you to use Webflow's native cart functionality and replaces
 
 
 ## Setup
-Assign the Shopify Variant ID to the Webflow product inside Webflow's navigator as 'Hidden Variant ID' and give it the class 'hidden-variant-id'. See screenshot below:<br>
+Assign the Shopify Variant ID to the Webflow product inside Webflow's navigator as 'Hidden Variant ID' and give it the class 'hidden-variant-id'.<br>
+See screenshot below:<br><br>
 ![Webflow Screenshot](https://github.com/yuvi100/webflow-shopify-checkout/blob/main/webflow-screenshot.jpeg?raw=true)
 <br><br>
 
 Edit the **script.js** file:<br>
-Change the following if needed (I used a demo Webflow store and the classes might not be exactly the same classes you have on your store)<br>
-<br>
-Webflow checkout button class: '**a.w-commerce-commercecartcheckoutbutton.button**'<br>
-Webflow cart item class: '**.w-commerce-commercecartitem**'<br>
-Webflow cart item quantity input selector class: '**input.w-commerce-commercecartquantity.text-field**'
-Webflow custom attribute class that you set up for your Webflow products which will contain a value equal to the Shopify Variant ID for that product: '**.hidden-variant-id**'<br>
-Shopify Domain: https://**ENTER-YOUR-SHOPIFY-DOMAIN-HERE**/cart/${arrayShopify}?channel=buy_button
+> - Change the following if needed (I used a demo Webflow store and the classes might not be exactly the same classes you have on your store)
+> - Webflow checkout button class: '**a.w-commerce-commercecartcheckoutbutton.button**'
+> - Webflow cart item class: '**.w-commerce-commercecartitem**'
+> - Webflow cart item quantity input selector class: '**input.w-commerce-commercecartquantity.text-field**'
+> - Webflow custom attribute class that you set up for your Webflow products which will contain a value equal to the Shopify Variant ID for that product: '**.hidden-variant-id**'
+> - Shopify Domain: https://**ENTER-YOUR-SHOPIFY-DOMAIN-HERE**/cart/${arrayShopify}?channel=buy_button
