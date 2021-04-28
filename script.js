@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 function shopifyCheckout() {
 
             // Webflow checkout cart line item class (change '.w-commerce-commercecartitem' if needed below)
-        	  var cartItems = document.querySelectorAll('.w-commerce-commercecartitem'), i;
+        	var cartItems = document.querySelectorAll('.w-commerce-commercecartitem'), i;
 
             var arrayShopify = [];
 
