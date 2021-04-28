@@ -13,8 +13,7 @@ See screenshot below:<br><br>
 ![Webflow Screenshot](https://github.com/yuvi100/webflow-shopify-checkout/blob/main/webflow-screenshot.jpeg?raw=true)
 <br><br>
 
-Edit the **script.js** file:<br>
-> - Change the following if needed (I used a demo Webflow store and the classes might not be exactly the same classes you have on your store)
+Edit the **script.js** file: *Change the following if needed (I used a demo Webflow store and the classes might not be exactly the same classes you have on your store)*<br>
 > - Webflow checkout button class: '**a.w-commerce-commercecartcheckoutbutton.button**'
 > - Webflow cart item class: '**.w-commerce-commercecartitem**'
 > - Webflow cart item quantity input selector class: '**input.w-commerce-commercecartquantity.text-field**'
