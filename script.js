@@ -1,6 +1,6 @@
 <script>
 
-// JavaScript alternative to document.ready
+// JavaScript alternative to document.ready, ensuring the page has rendered before adding an event listener, otherwise console will return 'null'
 document.addEventListener('DOMContentLoaded', (event) => {
       
       // Webflow checkout button class (change 'a.w-commerce-commercecartcheckoutbutton.button' if needed below)
