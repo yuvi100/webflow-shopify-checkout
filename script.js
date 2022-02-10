@@ -26,7 +26,7 @@ function shopifyCheckout() {
       var arrayShopify = [];
       
       // Loop through products in Webflow cart and push to arrayShopify above
-      for (i = 0; i < cartItems.length; ++i) {
+      for (i = 0; i < cartItems.length; i++) {
             var productid = cartItems[i].querySelector('.hidden-variant-id').innerHTML; // Change '.hidden-variant-id' to the class name you've given for your Shopify Variant ID's inside of Webflow's Navigator
             var productqty = cartItems[i].querySelector('input.w-commerce-commercecartquantity.text-field').value; // Change (if needed) 'input.w-commerce-commercecartquantity.text-field' to the input class of the quantity selector
             var shopifyproduct = `${productid}:${productqty}`;
